@@ -1,0 +1,62 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "compass-sass-mixins": "^0.12.7",
+    "emergence.js": "^1.1.2",
+    "font-awesome": "^4.7.0",
+    "gatsby": "^2.0.76",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-google-tagmanager": "^2.0.9",
+    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-plugin-sharp": "^2.0.22",
+    "gatsby-plugin-typography": "^2.2.7",
+    "gatsby-plugin-zopfli": "^1.0.2",
+    "gatsby-source-contentful": "^2.0.32",
+    "gatsby-source-filesystem": "^2.0.22",
+    "gatsby-source-instagram": "^0.2.5",
+    "gatsby-transformer-sharp": "^2.1.14",
+    "google-maps-react": "^2.0.2",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
+    "react-masonry-component": "^6.2.1",
+    "react-parallax": "^2.1.0",
+    "react-spring": "^8.0.7",
+    "react-typography": "^0.16.18",
+    "sharp": "^0.21.3",
+    "typography": "^0.16.18"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

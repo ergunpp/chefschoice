@@ -1,0 +1,74 @@
+
+textarea.form-control, textarea {
+    height: auto !important;
+    resize: horizontal;
+}
+.form-group [class*="col-sm-"],
+.form-group [class*="col-md-"],
+.form-group [class*="col-lg-"] {
+  margin-bottom: 15px;
+}
+.form-group [class*="col-sm-"]:last-child,
+.form-group [class*="col-md-"]:last-child,
+.form-group [class*="col-lg-"]:last-child {
+  margin-bottom: 0;
+}
+
+.form-control, .input-group-addon, .bootstrap-select .btn {
+    background-color: #fbfbfb;
+    border-color: #e7e7e6;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 13px;
+    height: 45px;
+    line-height: 40px;
+    padding: 10px 20px;
+    
+}
+
+
+ .form-group {
+    
+    margin-bottom: 0;
+    vertical-align: middle;
+    display:inline-block;
+  }
+  
+
+
+input[type=text]{
+  width:100%;
+}
+
+.btn-contact{
+  margin:20px;
+}
+
+form {
+  width:100%;
+}
+
+//form div {
+//  background-color: #000000;
+  
+//}
+
+.multiple {
+  
+}
+
+.alert {
+  animation: FadeAnimation 3s ease-in .2s forwards;
+  @keyframes FadeAnimation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    
+  }
+}
+}

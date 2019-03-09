@@ -1,0 +1,54 @@
+.parallax-div-cat-cat{
+    height:267px;
+}
+
+
+@media screen and (max-width: 320px) {
+    .parallax-div-cat{
+        height:350px;
+        width:130vw;
+        background-size: auto auto;
+        background-position: 50% 90%;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width: 520px) {
+    .parallax-div-cat{
+        height:190px;
+        margin-top:auto;
+        width:120vw;
+        background-size: 100% auto;
+        background-position: 0% 50%;
+        
+    }
+}
+
+@media screen and (min-width:521px) and (max-width: 1080px) {
+    .parallax-div-cat{
+        height:350px;
+        margin-top:78;
+        width:100vw;
+        background-size: 100% auto;
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (min-width:1081px) and (max-width: 1200px) {
+    .parallax-div-cat{
+        height:400px;
+        width:100vw;
+        background-size: 100% auto;
+        background-position: 0% 40%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .parallax-div-cat{
+        
+        width: 100vw;
+        height: 500px;
+        background-size: 100% auto;
+        background-position: 0% 57%;
+    }
+}
+

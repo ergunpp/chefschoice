@@ -1,0 +1,42 @@
+.parallax-div{
+    height:167px;
+}
+
+
+@media screen and (max-width: 320px) {
+    .parallax-div{
+        height:167px;
+        /*margin-bottom: -100px;*/
+    }
+}
+
+@media screen and (min-width:321px) and (max-width: 520px) {
+    .parallax-div{
+        height:267px;
+        margin-top:auto;
+    }
+}
+
+@media screen and (min-width:521px) and (max-width: 1080px) {
+    .parallax-div{
+        height:533px;
+        margin-top:78;
+    }
+}
+
+@media screen and (min-width:1081px) and (max-width: 1200px) {
+    .parallax-div{
+        height:800px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .parallax-div{
+        
+        width:100vw;
+        height: calc(100vw*0.66);
+        
+      
+    }
+}
+
