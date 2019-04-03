@@ -57,7 +57,7 @@ export default class ProductDetail extends React.Component{
                 
                
                
-                <div className="detailSection">
+                <div className="col-md-12">
                    <h2>Besleme Tablosu ve Önerileri</h2>
                   <div className="feedingTable" dangerouslySetInnerHTML={{__html:product.feedingTable.feedingTable}}></div>
                 </div>

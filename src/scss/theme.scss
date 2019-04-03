@@ -11,7 +11,7 @@ body,
   
 }
 body {
-  overflow-y: scroll;
+  //overflow-y: scroll; commented to correct the scroll behaviour
   -webkit-overflow-scrolling: touch;
 }
 
@@ -286,8 +286,16 @@ textarea:focus, select:focus {
     background-color: #fff;
     width:30%;
     display: inline-block;
-    
-    
+    animation: slide-up 0.4s ease;
+}
+
+@keyframes slide-up{
+  0% {
+    transform: translateY(50px);
+  }
+  100%{
+    transform:translateY(0);
+  }
 }
 
 .card-img{
@@ -323,6 +331,7 @@ textarea:focus, select:focus {
       
   }
   
+  
 }
 @media (min-width: 577px) and (max-width:768px) {
   .card{
@@ -343,7 +352,7 @@ textarea:focus, select:focus {
 
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
+.card:hover, .card:active {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   .card-caption{
     visibility:visible;
@@ -386,11 +395,11 @@ textarea:focus, select:focus {
     transition: opacity .5s, visibility .2s;
     flex-direction:column;
     padding-top:50;
-    a, a:hover h2{
+    a h2{
       color:#F9D999;
       text-decoration: none;
       opacity:inherit;
-     
+      font-size:1.5rem;
     }
     
 }
@@ -457,6 +466,10 @@ ul.inline-list > li, ol.inline-list > li {
 .teaser-exclamation{
   font-size: 2em;
   color: #fcda9a!important;
+}
+
+.teaser-main{
+  color:#fff!important;
 }
 
 .no-padding{

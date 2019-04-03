@@ -35,7 +35,7 @@ export default () => (
           <div className="row">
           <div className="col-md-12 text-center"><i className="fa fa-times-circle" style={{fontSize:"3em", paddingBottom:"30px"}}/></div>
             <div className="col-md-5 ml-auto mr-auto text-center">
-              <h1>Şeker, suni renklendirici, aroma ve koruyucular</h1>
+              <h1 className="teaser-main">Şeker, suni renklendirici, aroma ve koruyucular</h1>
               <p className="text-center"><span className="teaser-exclamation">İÇERMEZ!</span></p>
             </div>
             

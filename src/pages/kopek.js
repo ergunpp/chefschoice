@@ -40,6 +40,7 @@ export default ({location}) =>(
           <section className="style-2">
           <div className="container">
           <h1  className="section-heading text-center">Köpek Menümüz </h1>
+           <p>Açık denizlerden sağlanmış deniz mahsülleri ve gerçek taze etten oluşan tarifler, yararlı sebze ve şifalı otlarla zenginleştirilerek buharda, besin değerini ve tazeliğini kaybetmeden üretilmiştir. </p> 
             <div className="row">
               <div className="col-md-12">
                 
